@@ -1,0 +1,23 @@
+{
+    "name": "sirvelia/plubo-updater",
+    "description": "Manage premium plugin updates.",
+    "keywords": ["plugin", "wordpress", "updates", "wp", "license"],
+    "homepage": "https://github.com/sirvelia/plubo-updater",
+    "license": "GPL-3.0+",
+    "authors": [
+      {
+        "name": "Joan Rodas Cusidó",
+        "email": "joan@sirvelia.com",
+        "homepage": "https://sirvelia.com",
+        "role": "Developer"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PluboUpdater\\": "PluboUpdater/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    }
+}
